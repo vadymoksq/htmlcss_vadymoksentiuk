@@ -1,0 +1,93 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;500&display=swap');
+
+/*      HOMEWORK-LINKS STYLES       */
+
+.links {
+    width: 400px;
+    height: 50px;
+    background-color: rgb(71, 71, 71);
+    font-size: 24px;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 20px auto;
+}
+.links span {
+    color: white;
+}
+.link-1 {
+    color: tomato;
+}
+.link-2 {
+    color: aqua;
+}
+.link-3 {
+    color: yellow;
+}
+.square {
+    background-color: #fff;
+    width: 120px;
+    height: 560px;
+    box-sizing: border-box;
+    margin: 50px auto;
+}
+.square-black {
+    background-color: black;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+.square-aqua {
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+/*      HOMEWORK-STRUKT_FILES STYLES       */
+
+.main {
+    background-color: rgb(69, 136, 1);
+    color: white;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+/*      HOMEWORK-POEM STYLES       */
+.poem {
+    width: 210px;
+    margin: auto;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+}
+.autor {
+    font-size: 20px;
+    font-weight: 500;
+    color: red;
+}
+.year {
+    text-align: center;
+    font-size: 14px;
+}
+.text {
+    font-size: 14px;
+}
+
+/*      HOMEWORK-MATESHA STYLES       */
+.math {
+    width: 400px;
+    margin: 50px auto;
+}
+.formula {
+    font-style: italic;
+}
+.formula sub, sup {
+    font-style: normal;
+}
+.formula sub {
+    color: blue;
+}
+.formula sup {
+    color: red;
+}
