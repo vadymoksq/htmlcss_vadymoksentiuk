@@ -1,0 +1,82 @@
+.main {
+    width: 1000px;
+    margin: 0 auto;
+}
+span {
+    color: red;
+}
+
+.main__title {
+    padding: 10px;
+    background-color: rgba(109, 243, 116, 0.623);
+    font-weight: bold;
+}
+
+.main__form {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main__form-left, .main__form-right {
+    box-sizing: border-box;
+    width: 500px;
+    padding: 15px;
+}
+
+.main__form-fs {
+    border: 3px solid purple;
+    width: 400px;
+}
+
+.main__form-label {
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main__form-label-radio {
+    display: flex;
+}
+
+.main__form-p {
+    margin-top: 5px;
+    font-size: 16px;
+    line-height: 16px;
+}
+
+.main__form-p-radio {
+    width: 250px;
+    margin-right: 25px;
+    justify-self: flex-start;
+}
+
+
+.main__form-input, .main__form-textarea{
+    margin: 5px 20px 5px auto;
+}
+
+.main__form-select {
+    width: 164px;
+    margin: 5px 20px 5px auto;
+}
+
+.main__form-buttons {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(180, 180, 180);
+    padding: 10px;
+}
+
+.main__form-button {
+    width: 100px;
+    height: 30px;
+    margin-right: 20px;
+    background-color: rgb(111, 170, 22);
+    color: #fff;
+    font-weight: bold;
+}
+
+.main__form-web {
+    display: flex;
+    justify-content: space-between;
+}

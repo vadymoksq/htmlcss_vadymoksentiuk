@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="main">
+        <p class="main__title">Contact Manager</p>
+        <form class="main__form" action="">
+            <div class="main__form-left">
+                <fieldset class="main__form-fs">
+                    <legend>Contact information</legend>
+                    <label class="main__form-label">
+                        <p class="main__form-p">First name <span>*</span></p>
+                        <input class="main__form-input" type="text" required>
+                    </label>
+                    <label class="main__form-label">
+                        <p class="main__form-p">Last name <span>*</span></p>
+                        <input class="main__form-input" type="text" required>
+                    </label>
+                    <label class="main__form-label">
+                        <p class="main__form-p">Address</p>
+                        <textarea class="main__form-textarea" rows="5" cols="20"></textarea>
+                    </label>
+                    <label class="main__form-label">
+                        <p class="main__form-p">City</p>
+                        <input class="main__form-input" type="text">
+                    </label>
+                    <label class="main__form-label">
+                        <p class="main__form-p">State</p>
+                        <select class="main__form-select"  name="select">
+                            <option value="alabama">Штат Ящериц</option>
+                            <option value="arckanzas">Штат Диких Свиней</option>
+                            <option value="visconsyn">Сырный Штат</option>
+                            <option value="mississipi">Штат Сурка</option>
+                        </select>
+                    </label>
+                    <label class="main__form-label">
+                        <p class="main__form-p">ZIP</p>
+                        <input class="main__form-input" type="text">
+                    </label>
+                    <label class="main__form-label">
+                        <p class="main__form-p">Home Phone</p>
+                        <input class="main__form-input" type="text">
+                    </label>
+                    <label class="main__form-label">
+                        <p class="main__form-p">Work Phone <span>*</span></p>
+                        <input class="main__form-input" type="text" required>
+                    </label>
+                    <label class="main__form-label">
+                        <p class="main__form-p">Fax Number</p>
+                        <input class="main__form-input" type="text">
+                    </label>
+                </fieldset class="main__form-fs">
+            </div>
+
+            <div class="main__form-right">
+                <div class="main__form-label-radio">
+                    <p class="main__form-p-radio">When is the best time to contact you?</p>
+                    <p><input type="radio" name="time" value="morning"> Morning <br>
+                        <input type="radio" name="time" value="afternon"> Afternon <br>
+                        <input type="radio" name="time" value="evening"> Evening
+                    </p>
+                </div>
+                <div class="main__form-label-radio">
+                    <p class="main__form-p-radio">When is the best way to contact you?</p>
+                    <p><input type="radio" name="way" value="phone"> Phone <br>
+                        <input type="radio" name="way" value="email"> Email <br>
+                        <input type="radio" name="way" value="fax" size="15"> Fax
+                    </p>
+                </div>
+                <label class="main__form-label">
+                    <p class="main__form-p">Message</p>
+                    <textarea class="main__form-textarea" rows="5" cols="20"></textarea>
+                </label>
+                <label class="main__form-web">
+                    <p class="main__form-p-web">Web Site</p>
+                    <div style="width: 300px;">
+                        <div style="display:flex">
+                            <p style="font-size: 14px; line-height: 14px; margin-top: 5px;">URL</p>
+                            <input class="main__form-input" type="text" size="15">
+                        </div>
+                        <div style="display:flex">
+                            <p style="font-size: 14px; line-height: 14px; margin-top: 5px;">Link Name</p>
+                            <input class="main__form-input" type="text" size="15">
+                        </div>
+                    </div>
+                </label>
+                <label class="main__form-label">
+                    <p class="main__form-p">Mail Address <span>*</span></p>
+                    <input class="main__form-input" type="text">
+                </label>
+            </div>
+        </form>
+        <div class="main__form-buttons">
+            <input class="main__form-button" type="submit" value="Submit">
+            <input class="main__form-button" type="reset" value="Reset">
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>
