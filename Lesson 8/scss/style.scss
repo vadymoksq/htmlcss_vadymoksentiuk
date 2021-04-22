@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Ramaraja&family=Roboto:wght@400;700&display=swap');
+
+$button-bg: #FC569A;
+$menu-color: #1B0A42;
+
+%button-style {
+    padding: 18px 32px;
+    border: 0;
+    border-radius: 6px;
+    background-color: $button-bg;
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    cursor: pointer;
+    color: #fff;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Roboto;
+    letter-spacing: 0.02em;
+}
+
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.container {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.header {
+
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 120px;
+    }
+
+    &__logo-link {
+        margin-left: 80px;
+    }
+
+    &__menu {
+        display: flex;
+
+        &-item {
+            margin-left: 40px;
+
+            &:first-child {
+                margin-left: 100px;
+            }
+        }
+
+        &-link {
+            color: $menu-color;
+
+            &:hover {
+                color: $button-bg;
+            }
+        }
+    }
+
+    &__sign-in {
+        margin: 0 40px 0 auto;
+        width: 51px;
+        color: #1B0A42;
+
+        &:hover {
+            color: $button-bg;
+        }
+    }
+
+    &__sign-up {
+        @extend %button-style;
+        margin-right: 65px;
+        line-height: 24px;
+
+        &:hover {
+            background-color: $menu-color;
+        }
+    }
+}
+
+.main {
+
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 80px;
+        padding: 0 20px 0 200px;
+    }
+
+    &__content {
+
+        &-title {
+            max-width: 495px;
+            margin-top: 70px;
+            font-family: 'Ramaraja', serif;
+            font-size: 72px;
+            line-height: 76px;
+            color: $menu-color;
+        }
+
+        &-info {
+            max-width: 535px;
+            font-size: 20px;
+            margin-top: 15px;
+            color: #9A9A9A;
+            line-height: 32px;
+        }
+
+        &-button {
+            @extend %button-style;
+            font-weight: 32px;
+            margin-top: 50px;
+
+            &:hover {
+                background-color: $menu-color;
+            }
+        }
+    }
+}

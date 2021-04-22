@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Ramaraja&family=Roboto:wght@400;700&display=swap");
+.header__sign-up, .main__content-button {
+  padding: 18px 32px;
+  border: 0;
+  border-radius: 6px;
+  background-color: #FC569A;
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  cursor: pointer;
+  color: #fff;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: Roboto;
+  letter-spacing: 0.02em;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.header__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 120px;
+}
+
+.header__logo-link {
+  margin-left: 80px;
+}
+
+.header__menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header__menu-item {
+  margin-left: 40px;
+}
+
+.header__menu-item:first-child {
+  margin-left: 100px;
+}
+
+.header__menu-link {
+  color: #1B0A42;
+}
+
+.header__menu-link:hover {
+  color: #FC569A;
+}
+
+.header__sign-in {
+  margin: 0 40px 0 auto;
+  width: 51px;
+  color: #1B0A42;
+}
+
+.header__sign-in:hover {
+  color: #FC569A;
+}
+
+.header__sign-up {
+  margin-right: 65px;
+  line-height: 24px;
+}
+
+.header__sign-up:hover {
+  background-color: #1B0A42;
+}
+
+.main__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 80px;
+  padding: 0 20px 0 200px;
+}
+
+.main__content-title {
+  max-width: 495px;
+  margin-top: 70px;
+  font-family: 'Ramaraja', serif;
+  font-size: 72px;
+  line-height: 76px;
+  color: #1B0A42;
+}
+
+.main__content-info {
+  max-width: 535px;
+  font-size: 20px;
+  margin-top: 15px;
+  color: #9A9A9A;
+  line-height: 32px;
+}
+
+.main__content-button {
+  font-weight: 32px;
+  margin-top: 50px;
+}
+
+.main__content-button:hover {
+  background-color: #1B0A42;
+}
+/*# sourceMappingURL=style.css.map */
