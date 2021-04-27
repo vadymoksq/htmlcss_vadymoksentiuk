@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Ramaraja&family=Roboto:wght@400;700&display=swap');
 
 li{
-    list-style-type: none;
+    list-style: none;
 }
 a{
     text-decoration: none;
-    color: black;
+    color: inherit;
 }
 
 body {
